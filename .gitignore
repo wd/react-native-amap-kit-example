@@ -54,3 +54,7 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# Pods
+ios/Pods/
+ios/RNAmapKitExample.xcworkspace/
