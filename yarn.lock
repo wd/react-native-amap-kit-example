@@ -4542,10 +4542,10 @@ react-is@^16.6.3:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
   integrity sha512-Z0VRQdF4NPDoI0tsXVMLkJLiwEBa+RP66g0xDHxgxysxSoCUccSten4RTF/UFvZF1dZvZ9Zu1sx+MDXwcOR34g==
 
-react-native-amap-kit@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-amap-kit/-/react-native-amap-kit-2.0.0.tgz#cb8101a4850e4595461996a5ab2e2ede26a59cd7"
-  integrity sha512-mRGryriBfI+7YTV+l7Fffikl220fqm69FzS46bPlJJuDaJios/1j83O8y8jhbAMXs2Jy3ivHbnA5IVi4GPQM+Q==
+react-native-amap-kit@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-amap-kit/-/react-native-amap-kit-2.0.1.tgz#61f646535cddddbf5a7d6bdfe9b428951505b821"
+  integrity sha512-+20Q1QhK18E/Y0GG5neStFf1GISzBEi/0D86O8otct55le8e4qmIIzs8z5xIkhwaHFMpv5gT73B4It3s70sUqw==
 
 react-native@0.57.8:
   version "0.57.8"
