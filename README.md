@@ -17,3 +17,5 @@ $ react-native run-ios --simulator 'iPhone X'
 
 # Screenshots
 
+![s1](https://github.com/wd/react-native-amap-kit-example/raw/master/screenshots/s1.jpg)
+![s2](https://github.com/wd/react-native-amap-kit-example/raw/master/screenshots/s1.jpg)
