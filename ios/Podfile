@@ -15,6 +15,8 @@ target 'RNAmapKitExample' do
     pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
     pod 'react-native-amap-kit', path: '../node_modules/react-native-amap-kit/ios'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
 end
 
 post_install do |installer|

@@ -3,37 +3,22 @@
  * https://github.com/facebook/react-native
  *
  */
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import Home from './screens/Home';
+import { YellowBox } from "react-native";
+import Props from './screens/Props';
+import ShapesByProps from './screens/ShapesByProps';
+import ShapesByMethods from './screens/ShapesByMethods';
 
-import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import AMAP from 'react-native-amap-kit';
-
-type Props = {};
-export default class App extends React.Component<Props> {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>AMAP example.</Text>
-        <AMAP
-          style={{width: 300, height: 300}}
-          centerCoordinate={{latitude: 39.9042, longitude: 116.4074}}
-          zoomLevel={7}
-        />
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  }
+const AppNavigator = createStackNavigator({
+  Home,
+  Props,
+  ShapesByProps,
+  ShapesByMethods
 });
+
+export default createAppContainer(AppNavigator);
+
+YellowBox.ignoreWarnings([
+  'Remote debugger is in a background tab which may cause apps to perform slowly'
+]);
