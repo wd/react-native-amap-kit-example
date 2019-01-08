@@ -1,17 +1,18 @@
 PODS:
-  - AMap3DMap (5.7.0):
+  - AMap3DMap (6.6.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.6)
+  - AMapLocation (2.6.1):
     - AMapFoundation (~> 1.4)
-  - AMapFoundation (1.5.4)
-  - AMapLocation (2.6.0):
-    - AMapFoundation (~> 1.4)
-  - AMapSearch (5.7.0):
+  - AMapSearch (6.6.0):
     - AMapFoundation (~> 1.4)
   - React (0.57.8):
     - React/Core (= 0.57.8)
-  - react-native-amap-kit (2.0.8):
-    - AMap3DMap (= 5.7.0)
-    - AMapLocation (= 2.6.0)
-    - AMapSearch (= 5.7.0)
+  - react-native-amap-kit (2.0.15):
+    - AMap3DMap (= 6.6.0)
+    - AMapLocation (= 2.6.1)
+    - AMapSearch (= 6.6.0)
+    - React
   - React/Core (0.57.8):
     - yoga (= 0.57.8.React)
   - React/DevSupport (0.57.8):
@@ -34,7 +35,7 @@ PODS:
   - yoga (0.57.8.React)
 
 DEPENDENCIES:
-  - react-native-amap-kit (from `../node_modules/react-native-amap-kit/ios`)
+  - react-native-amap-kit (from `../node_modules/react-native-amap-kit`)
   - React/Core (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
   - React/RCTImage (from `../node_modules/react-native`)
@@ -52,22 +53,22 @@ EXTERNAL SOURCES:
   React:
     :path: "../node_modules/react-native"
   react-native-amap-kit:
-    :path: "../node_modules/react-native-amap-kit/ios"
+    :path: "../node_modules/react-native-amap-kit"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AMap3DMap: 97afc57b88628237d916991ac31795eb7bde3f63
-  AMapFoundation: bff8688722e886feda4edd77f1443746ddd7e2e2
-  AMapLocation: 55116a2c8956eab7550cbb56e989aa5cdcc424e3
-  AMapSearch: 314f75e9ce282b53dbf66455efa416c39f12b5b1
+  AMap3DMap: 37425c7d47420cbfaee88328be3dc3781814b999
+  AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
+  AMapSearch: def5983c8ca1a6d7430970046dc814f6e337621d
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
-  react-native-amap-kit: 20541bcbaddeb80480efe556283eda2a984ab6ac
+  react-native-amap-kit: aaaeb6c9bd8dd422c5166a87a883be1afb17703f
   RNGestureHandler: 282af6ea58ed8483612365159c58a3ca5f55e7da
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 8f2cc02cc7c67dfd2e5feab9a606a9109c64dc44
+PODFILE CHECKSUM: 539d0185d87ee359ba3ea33d2846f3af280476d3
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

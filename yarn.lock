@@ -4672,10 +4672,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-native-amap-kit@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/react-native-amap-kit/-/react-native-amap-kit-2.0.8.tgz#0336f512350e774e5316dbe394051c068b0432c1"
-  integrity sha512-hO0DA+KlGoiuG3lv9CiajcbAmv0uk5CLeF4uPNXSKcZ0MeWso6L9nHhBdSdf7c28Lnoyv8n+te2z8QeIUcyHrA==
+react-native-amap-kit@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/react-native-amap-kit/-/react-native-amap-kit-2.0.15.tgz#4957d56749d189af08a8fd3df87c437da32ec636"
+  integrity sha512-k+/z7wp+xsGvp7fBop0RpIJgl/ABZu1rwsW7ILEXhQ/V4uOAII7A1wnFi4mukiGgJRyUrrP36T7kbgMu/fTyTQ==
 
 react-native-gesture-handler@^1.0.0, react-native-gesture-handler@^1.0.12:
   version "1.0.12"
